@@ -1,7 +1,6 @@
 const numeroSecreto = Math.floor(Math.random()*20)+1;
 const intentos = [];
 
-console.log(numeroSecreto)
 
 function validarNumero(numeroSecreto,intento){
     if (intento > numeroSecreto) {
